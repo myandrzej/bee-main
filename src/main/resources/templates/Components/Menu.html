@@ -1,0 +1,38 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<div th:fragment="menu">
+    <nav class="col-md-2 d-none d-md-block bg-light sidebar">
+        <div class="sidebar-sticky">
+            <ul class="nav flex-column">
+                <li class="nav-item">
+                    <a class="nav-link" href="">
+                        <span data-feather="file"></span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/user">
+                        <span data-feather="file"></span>
+                        <br></br>Account
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/dashboard">
+                        <span data-feather="file"></span>
+                        Dashboard
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/teams">
+                        <span data-feather="file"></span>
+                        Teams
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/calendar">
+                        <span data-feather="file"></span>
+                        Calendar
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</div>
